@@ -11,7 +11,7 @@ import SwiftUI
 internal struct ContentView: View {
 
     private let viewModel = ContentViewModel(
-        animals: ["Cat", "Dog", "Bird", "Elephant"]
+        animals: ["Cat", "Dog", "Bird", "Horse", "Elephant"]
     )
 
     var body: some View {
