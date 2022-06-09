@@ -7,9 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3A6C1E1F28524AA300303B24 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6C1E1E28524AA300303B24 /* Animal.swift */; };
-		3A6C1E2028524AA300303B24 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6C1E1E28524AA300303B24 /* Animal.swift */; };
-		3A6C1E2128524AA300303B24 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6C1E1E28524AA300303B24 /* Animal.swift */; };
+		3A6C1E1F28524AA300303B24 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6C1E1E28524AA300303B24 /* Data.swift */; };
+		3A6C1E2028524AA300303B24 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6C1E1E28524AA300303B24 /* Data.swift */; };
+		3A6C1E2128524AA300303B24 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6C1E1E28524AA300303B24 /* Data.swift */; };
+		3A6C1E2328526F9700303B24 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6C1E2228526F9700303B24 /* ContentViewModel.swift */; };
+		3A6C1E2728527C8000303B24 /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6C1E2628527C8000303B24 /* CellView.swift */; };
+		3A6C1E2828527C8000303B24 /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6C1E2628527C8000303B24 /* CellView.swift */; };
+		3A6C1E2928527C8000303B24 /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6C1E2628527C8000303B24 /* CellView.swift */; };
+		3A6C1E2B2852804D00303B24 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6C1E2A2852804D00303B24 /* ButtonView.swift */; };
+		3A6C1E2C2852804D00303B24 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6C1E2A2852804D00303B24 /* ButtonView.swift */; };
+		3A6C1E2D2852804D00303B24 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6C1E2A2852804D00303B24 /* ButtonView.swift */; };
+		3A6C1E322852828700303B24 /* ButtonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6C1E312852828700303B24 /* ButtonViewModel.swift */; };
+		3A6C1E332852828700303B24 /* ButtonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6C1E312852828700303B24 /* ButtonViewModel.swift */; };
+		3A6C1E342852828700303B24 /* ButtonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6C1E312852828700303B24 /* ButtonViewModel.swift */; };
+		3A6C1E36285283EA00303B24 /* CellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6C1E35285283EA00303B24 /* CellViewModel.swift */; };
+		3A6C1E37285283EA00303B24 /* CellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6C1E35285283EA00303B24 /* CellViewModel.swift */; };
+		3A6C1E38285283EA00303B24 /* CellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6C1E35285283EA00303B24 /* CellViewModel.swift */; };
+		3A6C1E3D285287B400303B24 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6C1E3C285287B400303B24 /* Buttons.swift */; };
+		3A6C1E3E285287B400303B24 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6C1E3C285287B400303B24 /* Buttons.swift */; };
+		3A6C1E3F285287B400303B24 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6C1E3C285287B400303B24 /* Buttons.swift */; };
 		3AC88D95284FDB8900CE76F6 /* SwipeActionsSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC88D94284FDB8900CE76F6 /* SwipeActionsSampleApp.swift */; };
 		3AC88D97284FDB8900CE76F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC88D96284FDB8900CE76F6 /* ContentView.swift */; };
 		3AC88D99284FDB9600CE76F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AC88D98284FDB9600CE76F6 /* Assets.xcassets */; };
@@ -36,7 +52,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3A6C1E1E28524AA300303B24 /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		3A6C1E1E28524AA300303B24 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		3A6C1E2228526F9700303B24 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		3A6C1E2628527C8000303B24 /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
+		3A6C1E2A2852804D00303B24 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		3A6C1E312852828700303B24 /* ButtonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonViewModel.swift; sourceTree = "<group>"; };
+		3A6C1E35285283EA00303B24 /* CellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellViewModel.swift; sourceTree = "<group>"; };
+		3A6C1E3C285287B400303B24 /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
 		3AC88D91284FDB8900CE76F6 /* SwipeActionsSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeActionsSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AC88D94284FDB8900CE76F6 /* SwipeActionsSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActionsSampleApp.swift; sourceTree = "<group>"; };
 		3AC88D96284FDB8900CE76F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -76,6 +98,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A6C1E2E285281B100303B24 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3A6C1E3B285286FC00303B24 /* Content */,
+				3A6C1E3A285286E900303B24 /* Button */,
+				3A6C1E39285286DD00303B24 /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3A6C1E2F285281DC00303B24 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3A6C1E1E28524AA300303B24 /* Data.swift */,
+				3A6C1E3C285287B400303B24 /* Buttons.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3A6C1E39285286DD00303B24 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3A6C1E2628527C8000303B24 /* CellView.swift */,
+				3A6C1E35285283EA00303B24 /* CellViewModel.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		3A6C1E3A285286E900303B24 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				3A6C1E2A2852804D00303B24 /* ButtonView.swift */,
+				3A6C1E312852828700303B24 /* ButtonViewModel.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		3A6C1E3B285286FC00303B24 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				3AC88D96284FDB8900CE76F6 /* ContentView.swift */,
+				3A6C1E2228526F9700303B24 /* ContentViewModel.swift */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
 		3AC88D88284FDB8900CE76F6 = {
 			isa = PBXGroup;
 			children = (
@@ -99,9 +167,9 @@
 		3AC88D93284FDB8900CE76F6 /* SwipeActionsSample */ = {
 			isa = PBXGroup;
 			children = (
+				3A6C1E2F285281DC00303B24 /* Model */,
+				3A6C1E2E285281B100303B24 /* View */,
 				3AC88D94284FDB8900CE76F6 /* SwipeActionsSampleApp.swift */,
-				3AC88D96284FDB8900CE76F6 /* ContentView.swift */,
-				3A6C1E1E28524AA300303B24 /* Animal.swift */,
 				3AC88D98284FDB9600CE76F6 /* Assets.xcassets */,
 				3AC88D9D284FDB9600CE76F6 /* Info.plist */,
 				3AC88D9A284FDB9600CE76F6 /* Preview Content */,
@@ -264,9 +332,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A6C1E3D285287B400303B24 /* Buttons.swift in Sources */,
+				3A6C1E2328526F9700303B24 /* ContentViewModel.swift in Sources */,
+				3A6C1E2728527C8000303B24 /* CellView.swift in Sources */,
+				3A6C1E36285283EA00303B24 /* CellViewModel.swift in Sources */,
+				3A6C1E2B2852804D00303B24 /* ButtonView.swift in Sources */,
 				3AC88D97284FDB8900CE76F6 /* ContentView.swift in Sources */,
-				3A6C1E1F28524AA300303B24 /* Animal.swift in Sources */,
+				3A6C1E1F28524AA300303B24 /* Data.swift in Sources */,
 				3AC88D95284FDB8900CE76F6 /* SwipeActionsSampleApp.swift in Sources */,
+				3A6C1E322852828700303B24 /* ButtonViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +348,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A6C1E3E285287B400303B24 /* Buttons.swift in Sources */,
+				3A6C1E332852828700303B24 /* ButtonViewModel.swift in Sources */,
+				3A6C1E2828527C8000303B24 /* CellView.swift in Sources */,
 				3AC88DA7284FDB9600CE76F6 /* SwipeActionsSampleTests.swift in Sources */,
-				3A6C1E2028524AA300303B24 /* Animal.swift in Sources */,
+				3A6C1E37285283EA00303B24 /* CellViewModel.swift in Sources */,
+				3A6C1E2C2852804D00303B24 /* ButtonView.swift in Sources */,
+				3A6C1E2028524AA300303B24 /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,8 +362,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A6C1E3F285287B400303B24 /* Buttons.swift in Sources */,
+				3A6C1E342852828700303B24 /* ButtonViewModel.swift in Sources */,
+				3A6C1E2928527C8000303B24 /* CellView.swift in Sources */,
 				3AC88DB2284FDB9700CE76F6 /* SwipeActionsSampleUITests.swift in Sources */,
-				3A6C1E2128524AA300303B24 /* Animal.swift in Sources */,
+				3A6C1E38285283EA00303B24 /* CellViewModel.swift in Sources */,
+				3A6C1E2D2852804D00303B24 /* ButtonView.swift in Sources */,
+				3A6C1E2128524AA300303B24 /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
 //
-//  Animal.swift
+//  Buttons.swift
 //  SwipeActionsSample
 //
 //  Created by Risonaldo Moura on 09/06/22.
@@ -8,17 +8,10 @@
 import SwiftUI
 
 @available(iOS 15.0, *)
-internal struct Animal: Identifiable {
-    internal let id = UUID()
-    internal let name: String
-    internal let button: Buttons
-}
-
-@available(iOS 15.0, *)
 internal struct Buttons {
-    internal let delete: ButtonStyle
-    internal let edit: ButtonStyle
-    internal let mic: ButtonStyle
+    internal let delete: ButtonProperties = handleButtonStyle(style: .delete).style
+    internal let edit: ButtonProperties = handleButtonStyle(style: .edit).style
+    internal let mic: ButtonProperties = handleButtonStyle(style: .mic).style
 }
 
 @available(iOS 15.0, *)
