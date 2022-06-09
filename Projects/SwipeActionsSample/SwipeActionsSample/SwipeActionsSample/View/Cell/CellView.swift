@@ -15,13 +15,11 @@ struct CellView: View {
     var body: some View {
         Text(viewModel.name)
         .padding()
-        .swipeActions(edge: viewModel.deleteButton.edge) {
+        .swipeActions(edge: viewModel.deleteButton.edge, allowsFullSwipe: false) {
             ButtonView(viewModel: viewModel.deleteButton)
-        }
-        .swipeActions(edge: viewModel.editButton.edge) {
             ButtonView(viewModel: viewModel.editButton)
         }
-        .swipeActions(edge: viewModel.micButton.edge) {
+        .swipeActions(edge: viewModel.micButton.edge, allowsFullSwipe: false) {
             ButtonView(viewModel: viewModel.micButton)
         }
     }
